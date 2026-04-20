@@ -10,12 +10,12 @@
 
 <hr>
 
-<h2>🚀 Project Overview</h2>
+<h2> Project Overview</h2>
 <p>
   The <b>Medical Guidelines Copilot</b> is an AI-powered assistant designed to provide clinicians with instant, cited answers from complex medical guidelines.
 </p>
 
-<h3>🌟 Key Features</h3>
+<h3> Key Features</h3>
 <ul>
   <li><b>Hybrid Fallback Guardrail:</b> A custom-engineered logic that forces the AI to rely on the internal vector database first. It explicitly disclaims the transition to general knowledge if documents miss.</li>
   <li><b>Conversational Memory:</b> Maintains state across multi-turn dialogues, allowing for contextual follow-up questions without repeating the subject.</li>
@@ -26,7 +26,7 @@
 
 <hr>
 
-<h2>🛠️ Technical Architecture</h2>
+<h2> Technical Architecture</h2>
 <p>The application follows a modular RAG (Retrieval-Augmented Generation) workflow:</p>
 <ol>
   <li><b>Ingestion:</b> PyPDFLoader parses clinical guidelines into a RecursiveCharacterTextSplitter.</li>
@@ -38,7 +38,7 @@
 
 <hr>
 
-<h2>📦 Security & Setup</h2>
+<h2> Security & Setup</h2>
 <p>This project follows industry-standard security protocols for API key management. <b>Secrets are never hard-coded into the codebase.</b></p>
 
 <h3>Local Installation:</h3>
@@ -62,7 +62,7 @@
 
 <hr>
 
-<h2>🛡️ Observability & Reliability</h2>
+<h2> Observability & Reliability</h2>
 <p>To solve the "black box" problem of traditional AI in healthcare, this project implements <b>LangSmith Tracing</b>:</p>
 <ul>
   <li><b>Source Verification:</b> Every response is cross-referenced against the local vectorstore with exact page numbers.</li>
