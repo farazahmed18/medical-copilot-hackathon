@@ -1,0 +1,9 @@
+# Security
+.env
+
+# Environments
+.venv/
+__pycache__/
+
+# macOS junk
+.DS_Store
